@@ -1,0 +1,23 @@
+{
+  "web/tests/test_app.py::test_show_latest_peeps[chromium]": true,
+  "web/tests/test_app.py::test_user_is_signed_out[chromium]": true,
+  "web/tests/test_app.py::test_user_signs_in[chromium]": true,
+  "web/tests/test_app.py::test_user_signs_in_then_out[chromium]": true,
+  "web/tests/test_app.py::test_user_creates_peep[chromium]": true,
+  "web/tests/test_app.py::test_create_new_user[chromium]": true,
+  "web/tests/test_app.py::test_create_new_user_with_invalid_password[chromium]": true,
+  "web/tests/test_database_connection.py::test_database_connection": true,
+  "web/tests/test_peep_repository.py::test_get_all_peeps": true,
+  "web/tests/test_peep_repository.py::test_create_new_peep": true,
+  "web/tests/test_peep_repository.py::test_find_with_users": true,
+  "web/tests/test_peep_repository.py::test_find_with_users_with_no_tags": true,
+  "web/tests/test_peep_repository.py::test_all_by_reverse_chronological_order": true,
+  "web/tests/test_peep_repository.py::test_all_by_reverse_chronological_order_with_tags": true,
+  "web/tests/test_sign_in_authenticator.py::test_valid_email_and_password": true,
+  "web/tests/test_sign_in_authenticator.py::test_invalid_email_and_password": true,
+  "web/tests/test_sign_in_authenticator.py::test_email_and_invalid_password": true,
+  "web/tests/test_sign_in_authenticator.py::test_valid_email_and_valid_password_of_different_account": true,
+  "web/tests/test_user_repository.py::test_return_all_records": true,
+  "web/tests/test_user_repository.py::test_create_new_record": true,
+  "web/tests/test_user_repository.py::test_find_user_by_email": true
+}

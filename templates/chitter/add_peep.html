@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Peep</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1 class="title">Add Peep</h1>
+    <form action="/add-peep" method="post">
+        <p>
+            <label for="content">Content</label>
+            <input type="text" name="content" id="content">
+        </p>
+        <p>
+            <label for="tags">Tags</label>
+            <select name="tags" id="tags" multiple>
+                {% for handle in handles %}
+                <option value="{{handle}}">{{handle}}</option>
+                {% endfor %}
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Add peep" id="addpeep">
+        </p>
+    </form>
+</body>
+
+</html>

@@ -7,7 +7,7 @@ from app import app
 # It creates an object that we can use in our tests.
 # We will use it to create a database connection.
 @pytest.fixture
-def db_connection():
+def db_connection() -> DatabaseConnection:
     conn = DatabaseConnection(test_mode=True)
     conn.connect()
     return conn

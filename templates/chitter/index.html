@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chitter</title>
+    <meta charset="utf-8">
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+        .form-container {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body class="content">
+    <h1>Welcome to Chitter</h1>
+    <p><strong class="user">{{ current_user }}</strong></p>
+    <div class="form-container">
+        {% if signed_in %}
+        <form action="/sign-out" method="get">
+            <input type="submit" value="Sign out" id="signout">
+        </form>
+        <form action="/add-peep" method="get">
+            <input type="submit" value="App Peep" id="addpeep">
+        </form>
+        {% else %}
+        <form action="/sign-in" method="get">
+            <input type="submit" value="Sign in" id="signin">
+        </form>
+        <form action="/create-account" method="get">
+            <input type="submit" value="Create Account" id="createaccount">
+        </form>
+        {% endif %}
+    </div>
+
+    <h2>Latest Peeps:</h2>
+    {% for peep in formatted_peeps %}
+    <strong class="peep_title">{{ peep.title }}</strong>
+    <p class="peep_body"><span class="tab"></span>{{ peep.body }}</p>
+    <p class="peep_tags"><span class="tab"></span>Tagged: {{ peep.tags }}</p>
+    {% endfor %}
+</body>
+
+</html>
