@@ -30,4 +30,6 @@ jobs:
       # Now we run our tests
       - name: Test with pytest
         run: |
+          python3 -m venv chitter_venv
+          source chitter_venv/bin/activate
           pytest
