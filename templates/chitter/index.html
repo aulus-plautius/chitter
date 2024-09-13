@@ -4,49 +4,114 @@
 <head>
     <title>Chitter</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .tab {
-            display: inline-block;
-            margin-left: 40px;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
         .content {
-            max-width: 500px;
-            margin: auto;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .user {
+            font-size: 1.2em;
+            color: #3498db;
         }
         .form-container {
             display: flex;
-            gap: 20px;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        .peep {
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .peep_title {
+            color: #2c3e50;
+            font-size: 1.2em;
+        }
+        .peep_body {
+            margin: 10px 0;
+        }
+        .peep_tags {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        @media (max-width: 600px) {
+            .content {
+                padding: 10px;
+            }
+            .form-container {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 
-<body class="content">
-    <h1>Welcome to Chitter</h1>
-    <p><strong class="user">{{ current_user }}</strong></p>
-    <div class="form-container">
-        {% if signed_in %}
-        <form action="/sign-out" method="get">
-            <input type="submit" value="Sign out" id="signout">
-        </form>
-        <form action="/add-peep" method="get">
-            <input type="submit" value="App Peep" id="addpeep">
-        </form>
-        {% else %}
-        <form action="/sign-in" method="get">
-            <input type="submit" value="Sign in" id="signin">
-        </form>
-        <form action="/create-account" method="get">
-            <input type="submit" value="Create Account" id="createaccount">
-        </form>
-        {% endif %}
-    </div>
+<body>
+    <div class="content">
+        <h1>Welcome to Chitter</h1>
+        <p><strong class="user">{{ current_user }}</strong></p>
+        <div class="form-container">
+            {% if signed_in %}
+            <form action="/sign-out" method="get">
+                <input type="submit" value="Sign out" id="signout">
+            </form>
+            <form action="/add-peep" method="get">
+                <input type="submit" value="Add Peep" id="addpeep">
+            </form>
+            {% else %}
+            <form action="/sign-in" method="get">
+                <input type="submit" value="Sign in" id="signin">
+            </form>
+            <form action="/create-account" method="get">
+                <input type="submit" value="Create Account" id="createaccount">
+            </form>
+            {% endif %}
+        </div>
 
-    <h2>Latest Peeps:</h2>
-    {% for peep in formatted_peeps %}
-    <strong class="peep_title">{{ peep.title }}</strong>
-    <p class="peep_body"><span class="tab"></span>{{ peep.body }}</p>
-    <p class="peep_tags"><span class="tab"></span>Tagged: {{ peep.tags }}</p>
-    {% endfor %}
+        <h2>Latest Peeps:</h2>
+        {% for peep in formatted_peeps %}
+        <div class="peep">
+            <strong class="peep_title">{{ peep.title }}</strong>
+            <p class="peep_body">{{ peep.body }}</p>
+            <p class="peep_tags">Tagged: {{ peep.tags }}</p>
+        </div>
+        {% endfor %}
+    </div>
 </body>
 
 </html>

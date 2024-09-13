@@ -19,5 +19,6 @@
   "web/tests/test_sign_in_authenticator.py::test_valid_email_and_valid_password_of_different_account": true,
   "web/tests/test_user_repository.py::test_return_all_records": true,
   "web/tests/test_user_repository.py::test_create_new_record": true,
-  "web/tests/test_user_repository.py::test_find_user_by_email": true
+  "web/tests/test_user_repository.py::test_find_user_by_email": true,
+  "tests/test_app.py::test_user_creates_peep[chromium]": true
 }

@@ -61,3 +61,547 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 139-670-854
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4811
+ * Running on http://192.168.1.183:4811
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4288
+ * Running on http://192.168.1.183:4288
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4671
+ * Running on http://192.168.1.183:4671
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+ * Detected change in '/Users/joewinter/Documents/makers/web_applications/chitter_html/lib/database_connection.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4824
+ * Running on http://192.168.1.183:4824
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:24:47] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4187
+ * Running on http://192.168.1.183:4187
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:24:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:24:53] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:24:53] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:24:53] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4850
+ * Running on http://192.168.1.183:4850
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:24:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:24:59] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:24:59] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:24:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:24:59] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:24:59] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4423
+ * Running on http://192.168.1.183:4423
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:25:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:05] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:05] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:25:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:05] "GET /add-peep HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4792
+ * Running on http://192.168.1.183:4792
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:25:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:41] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:41] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:25:41] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4456
+ * Running on http://192.168.1.183:4456
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:25:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:47] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:25:47] "POST /create-account HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4219
+ * Running on http://192.168.1.183:4219
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:13] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4735
+ * Running on http://192.168.1.183:4735
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:19] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4427
+ * Running on http://192.168.1.183:4427
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:25] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:25] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:25] "GET / HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4464
+ * Running on http://192.168.1.183:4464
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:31] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:31] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:31] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:31] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4368
+ * Running on http://192.168.1.183:4368
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "GET /add-peep HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "[32mPOST /add-peep HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:37] "GET / HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4866
+ * Running on http://192.168.1.183:4866
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:43] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:43] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [06/Sep/2024 15:27:43] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4139
+ * Running on http://192.168.1.183:4139
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [06/Sep/2024 15:27:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:48] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2024 15:27:48] "POST /create-account HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4064
+ * Running on http://192.168.1.183:4064
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:20:25] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4222
+ * Running on http://192.168.1.183:4222
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:20:31] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4558
+ * Running on http://192.168.1.183:4558
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:20:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:37] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:37] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:20:37] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4442
+ * Running on http://192.168.1.183:4442
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:20:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:43] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:43] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:20:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:43] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:20:43] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4287
+ * Running on http://192.168.1.183:4287
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:20:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:49] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:49] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:20:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:20:49] "GET /add-peep HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4818
+ * Running on http://192.168.1.183:4818
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:21:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:21:25] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:21:25] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:21:25] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4082
+ * Running on http://192.168.1.183:4082
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:21:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:21:30] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:21:30] "POST /create-account HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4196
+ * Running on http://192.168.1.183:4196
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:22:55] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4467
+ * Running on http://192.168.1.183:4467
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:23:01] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4753
+ * Running on http://192.168.1.183:4753
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:23:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:07] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:07] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:23:07] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4211
+ * Running on http://192.168.1.183:4211
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:23:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:13] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:13] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:23:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:13] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:23:13] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4208
+ * Running on http://192.168.1.183:4208
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:23:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:18] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:19] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:23:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:19] "GET /add-peep HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4029
+ * Running on http://192.168.1.183:4029
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:23:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:55] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:23:55] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:23:55] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4053
+ * Running on http://192.168.1.183:4053
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:24:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:24:00] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:24:00] "POST /create-account HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4581
+ * Running on http://192.168.1.183:4581
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:48:29] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4455
+ * Running on http://192.168.1.183:4455
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:48:34] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4270
+ * Running on http://192.168.1.183:4270
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:48:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:40] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:40] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:48:40] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4249
+ * Running on http://192.168.1.183:4249
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:48:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:46] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:46] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:48:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:46] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:48:46] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4942
+ * Running on http://192.168.1.183:4942
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:48:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:52] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:52] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:48:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:48:52] "GET /add-peep HTTP/1.1" 200 -
+['john.doe@example.com', 'jane.smith@example.com', 'mike.johnson@example.com', 'sarah.davis@example.com']
+Pass1234!
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4054
+ * Running on http://192.168.1.183:4054
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:49:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:49:28] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:49:28] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:49:28] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4558
+ * Running on http://192.168.1.183:4558
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:49:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:49:34] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:49:34] "POST /create-account HTTP/1.1" 200 -

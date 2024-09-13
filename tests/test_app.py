@@ -89,6 +89,7 @@ def test_user_creates_peep(page: Page, test_web_address, db_connection):
     page.locator('#signin').click()
     page.locator('#addpeep').click()
     expect(page.locator(".title")).to_have_text("Add Peep")
+    page.screenshot(path='screenshot.png', full_page=True)
     page.fill("input[name='content']", 'This is a new peep.')
     page.select_option("#tags", ["@jane_smith", "@mike_j"])
     page.locator('#addpeep').click()

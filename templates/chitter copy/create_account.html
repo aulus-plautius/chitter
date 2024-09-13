@@ -2,91 +2,36 @@
 <html lang="en">
 
 <head>
-    <title>Create Account - Chitter</title>
+    <title>Create Account</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-        label {
-            margin-bottom: 0.5rem;
-            color: #2c3e50;
-        }
-        input[type="email"],
-        input[type="password"],
-        input[type="text"] {
-            padding: 0.5rem;
-            margin-bottom: 1rem;
-            border: 1px solid #bdc3c7;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background-color: #3498db;
-            color: #ffffff;
-            border: none;
-            padding: 0.75rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        input[type="submit"]:hover {
-            background-color: #2980b9;
-        }
-        .passwordmessage {
-            color: #e74c3c;
-            text-align: center;
-            margin-top: 1rem;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Create Account</h1>
-        <form action="/create-account" method="post">
+    <h1>Create Account</h1>
+    <!-- This creates a form that will submit to POST /books -->
+    <!-- <form action="/books" method="post"> -->
+    <form action="/create-account" method="post">
+        <p>
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" required>
-
+            <input type="text" name="email" id="email">
+        </p>
+        <p>
             <label for="password">Password</label>
-            <input type="text" name="password" id="password" required>
-
+            <input type="text" name="password" id="password">
+        </p>
+        <p>
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
-
+            <input type="text" name="name" id="name">
+        </p>
+        <p>
             <label for="handle">Handle</label>
-            <input type="text" name="handle" id="handle" required>
-
+            <input type="text" name="handle" id="handle">
+        </p>
+        <p>
             <input type="submit" value="Create Account" id="createaccount">
-        </form>
+        </p>
         <p class="passwordmessage">{{ passwordmessage }}</p>
-    </div>
+    </form>
 </body>
-
+bf
 </html>

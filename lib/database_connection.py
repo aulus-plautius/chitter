@@ -20,9 +20,7 @@ class DatabaseConnection:
     # to localhost and select the database name given in argument.
     def connect(self):
         try:
-            self.connection = psycopg.connect(
-                f"postgresql://localhost/{self._database_name()}",
-                row_factory=dict_row)
+            self.connection = psycopg.connect(self._database_url(),row_factory=dict_row)
         except psycopg.OperationalError:
             raise Exception(f"Couldn't connect to the database {self._database_name()}! " \
                     f"Did you create it using `createdb {self._database_name()}`?")
@@ -67,6 +65,12 @@ class DatabaseConnection:
             return self.TEST_DATABASE_NAME
         else:
             return self.DEV_DATABASE_NAME
+        
+    def _database_url(self):
+        if self.test_mode:
+            return f"postgresql://localhost/{self.TEST_DATABASE_NAME}"
+        else:
+            return os.environ.get('DATABASE_URL')
 
 # This function integrates with Flask to create one database connection that
 # Flask request can use. To see how to use it, look at example_routes.py
