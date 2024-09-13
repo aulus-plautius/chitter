@@ -22,7 +22,7 @@ def index():
         current_user = 'You are signed out, please sign in.'
         signed_in = False
     else:
-        current_user = f"Hello {session["handle"]}"
+        current_user = f"Hello {session['handle']}"
         signed_in = True
     return render_template('chitter/index.html', formatted_peeps=formatted_peeps, current_user=current_user, signed_in=signed_in)
 
