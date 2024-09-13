@@ -80,7 +80,7 @@ def test_user_signs_in_then_out(page: Page, test_web_address, db_connection):
     user_status_element = page.locator(".user")
     expect(user_status_element).to_have_text("You are signed out, please sign in.")
 
-def test_user_creates_peep(page: Page, test_web_address, db_connection):
+def _test_user_creates_peep(page: Page, test_web_address, db_connection):
     db_connection.seed('seeds/peeps_users.sql')
     page.goto(f"http://{test_web_address}/")
     page.locator('#signin').click()

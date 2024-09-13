@@ -605,3 +605,88 @@ Pass1234!
 127.0.0.1 - - [13/Sep/2024 08:49:34] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [13/Sep/2024 08:49:34] "GET /create-account HTTP/1.1" 200 -
 127.0.0.1 - - [13/Sep/2024 08:49:34] "POST /create-account HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4640
+ * Running on http://192.168.1.183:4640
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:11] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4260
+ * Running on http://192.168.1.183:4260
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:17] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4012
+ * Running on http://192.168.1.183:4012
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:22] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:22] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:54:22] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4965
+ * Running on http://192.168.1.183:4965
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:28] "GET /sign-in HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:28] "[32mPOST /sign-in HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:54:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:28] "[32mGET /sign-out HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:54:28] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4073
+ * Running on http://192.168.1.183:4073
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:34] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:34] "[32mPOST /create-account HTTP/1.1[0m" 302 -
+127.0.0.1 - - [13/Sep/2024 08:54:34] "GET / HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4380
+ * Running on http://192.168.1.183:4380
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 695-921-630
+127.0.0.1 - - [13/Sep/2024 08:54:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:40] "GET /create-account HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2024 08:54:40] "POST /create-account HTTP/1.1" 200 -
